@@ -82,7 +82,14 @@ function fecharModal() {
 function renderizarProdutos() {
     const container = document.getElementById("produtos");
     container.innerHTML = "";
-    produtos.forEach(produto => {
+
+    // Ordena os produtos por ordem alfabética (baseado no nome)
+    const produtosOrdenados = produtos.sort((a, b) => {
+        return a.nome.localeCompare(b.nome);
+    });
+
+    // Renderiza os produtos ordenados
+    produtosOrdenados.forEach(produto => {
         const item = document.createElement("div");
         item.classList.add("produto");
         item.innerHTML = `
