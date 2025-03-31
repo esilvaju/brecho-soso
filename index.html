@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brechó da Sôsô</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { max-width: 600px; margin: auto; }
+        .produto { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+        img { max-width: 100%; height: auto; }
+        .pix { background: #4CAF50; color: white; padding: 10px; text-decoration: none; display: inline-block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Brechó da Sôsô</h1>
+    <div class="container" id="produtos"></div>
+
+    <script>
+        const produtos = [
+            {
+                "imagem": "https://via.placeholder.com/300",
+                "nome": "Vestido Floral",
+                "descricao": "Vestido leve e confortável, tamanho M.",
+                "preco": "R$ 60,00",
+                "whatsapp": "SEUNUMERO"
+            },
+            {
+                "imagem": "https://via.placeholder.com/300",
+                "nome": "Jaqueta Jeans",
+                "descricao": "Jaqueta jeans clássica, tamanho G.",
+                "preco": "R$ 90,00",
+                "whatsapp": "SEUNUMERO"
+            }
+        ];
+
+        const container = document.getElementById("produtos");
+        produtos.forEach(produto => {
+            const item = document.createElement("div");
+            item.classList.add("produto");
+            item.innerHTML = `
+                <img src="${produto.imagem}" alt="${produto.nome}">
+                <h2>${produto.nome}</h2>
+                <p>${produto.descricao}</p>
+                <p><strong>Preço: ${produto.preco}</strong></p>
+                <a href="https://api.whatsapp.com/send?phone=${produto.whatsapp}" class="pix">Comprar pelo WhatsApp</a>
+            `;
+            container.appendChild(item);
+        });
+    </script>
+</body>
+</html>
