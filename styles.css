@@ -115,9 +115,7 @@ img:hover {
 }
 
 #modal button {
-    position: absolute; /* Posiciona o botão em relação ao modal */
-    top: 20px; /* Distância do topo */
-    right: 20px; /* Distância da direita */
+    margin-top: 20px;
     padding: 12px;
     background: #ff5733;
     color: white;
