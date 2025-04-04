@@ -25,7 +25,10 @@ const produtos = [
     { "imagem": "https://i.postimg.cc/kM0YFF1z/IMG-1189.png", "nome": "Conjunto vestido e calcinha vermelha com bolinhas", "descricao": "Conjunto vestido e calcinha vermelha com bolinhas", "tamanho": "6 meses", "preco": "R$ 30,00", "whatsapp": "5521997070112" },
     { "imagem": "https://i.postimg.cc/nhZdNVt1/IMG-1190.png", "nome": "Livro de pano sensorial dupla face com espelho", "descricao": "Livro de pano sensorial dupla face com espelho", "tamanho": "-", "preco": "R$ 30,00", "whatsapp": "5521997070112" },
     { "imagem": "https://i.postimg.cc/5NYwNhfF/mobly.jpg", "nome": "Mobile para carrinho ou bebê conforto", "descricao": "Mobile para carrinho ou bebê conforto", "tamanho": "-", "preco": "R$ 30,00", "whatsapp": "5521997070112" },
-    ];
+    { "imagem": "https://i.postimg.cc/zGcGxJYj/Whats-App-Image-2025-04-04-at-17-39-10.jpg", "nome": "Swaddle (saco de dormir) branco de velcro", "descricao": "Swaddle branco (saco de dormir) de velcro", "tamanho": "RN", "preco": "R$ 35,00", "whatsapp": "5521997070112" },
+
+
+];
 
 let carrinho = [];
 
