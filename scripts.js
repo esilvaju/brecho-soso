@@ -16,7 +16,6 @@ const produtos = [
     { "imagem": "https://i.postimg.cc/tTf6tJ2N/IMG-1168.png", "nome": "Body azul rosas de botão", "descricao": "Body azul rosas de botão", "tamanho": "0-3 meses", "preco": "R$ 20,00", "whatsapp": "5521997070112" },
     { "imagem": "https://i.postimg.cc/K4hgwVXK/IMG-1170.png", "nome": "Body vermelho rosas de botão", "descricao": "Body vermelho rosas de botão", "tamanho": "RN", "preco": "R$ 20,00", "whatsapp": "5521997070112" },
     { "imagem": "https://i.postimg.cc/v8kk2dBP/IMG-1171.png", "nome": "Body rosa manga longa de botão", "descricao": "Body rosa manga longa de botão", "tamanho": "RN", "preco": "R$ 20,00", "whatsapp": "5521997070112" },
-    { "imagem": "https://i.postimg.cc/NfXVWP2Q/IMG-1172.png", "nome": "Body marom Robot de botão", "descricao": "Body marom Robot de botão", "tamanho": "RN", "preco": "R$ 20,00", "whatsapp": "5521997070112" },
     { "imagem": "https://i.postimg.cc/DwKDFd1L/IMG-1174.png", "nome": "Body rosa animais de botão", "descricao": "Body rosa animais de botão", "tamanho": "0-3 meses", "preco": "R$ 20,00", "whatsapp": "5521997070112" },
     { "imagem": "https://i.postimg.cc/GmJfp8jN/IMG-1177.png", "nome": "Body rosa coelhão de botão", "descricao": "Body rosa coelhão de botão", "tamanho": "RN", "preco": "R$ 20,00", "whatsapp": "5521997070112" },
     { "imagem": "https://i.postimg.cc/VNKHjxpW/IMG-1179.png", "nome": "Swaddle (saco de dormir) rosa de velcro", "descricao": "Swaddle rosa (saco de dormir) de velcro", "tamanho": "RN", "preco": "R$ 35,00", "whatsapp": "5521997070112" },
